@@ -17,3 +17,17 @@ get http://localhost:3000/contacts/a1234567890abcdef1234567
 
 ### RENDER URLs
 
+get https://api-fguq.onrender.com/
+
+###
+get https://api-fguq.onrender.com/nathalia
+
+###
+get https://api-fguq.onrender.com/contacts
+
+###
+get https://api-fguq.onrender.com/contacts/696bb0c418399f8b0ebc9e43
+
+###
+get https://api-fguq.onrender.com/contacts/a1234567890abcdef1234567
+
