@@ -10,5 +10,7 @@ router.get('/', homeController.getHome);
 const nathaliaController = require('../controllers/nathaliaController');
 router.get('/nathalia', nathaliaController.getNathalia);
 
+// Add routes from the contacts.js file
+router.use('/contacts', require('./contacts'));
 
 module.exports = router;

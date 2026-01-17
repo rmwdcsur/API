@@ -1,0 +1,19 @@
+get http://localhost:3000/
+
+###
+get http://localhost:3000/nathalia
+
+###
+get http://localhost:3000/contacts
+
+### VALID ID
+get http://localhost:3000/contacts/696bb0c418399f8b0ebc9e43
+
+### INVALID ID
+get http://localhost:3000/contacts/a1234567890abcdef1234567
+
+
+
+
+### RENDER URLs
+
