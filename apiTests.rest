@@ -12,7 +12,32 @@ get http://localhost:3000/contacts/696bb0c418399f8b0ebc9e43
 ### INVALID ID
 get http://localhost:3000/contacts/a1234567890abcdef1234567
 
+### CREATE CONTACT
+post http://localhost:3000/contacts
+Content-Type: application/json
 
+{
+  "firstName": "Santiago",
+  "lastName": "Risso",
+  "email": "risso.santiago@gmail.com",
+  "favoriteColor": "Yellow",
+  "birthday": "30/07"
+}
+
+### UPDATE CONTACT
+put http://localhost:3000/contacts/69758515be7a6b749a85c511
+Content-Type: application/json  
+
+{
+  "firstName": "Federico",
+  "lastName": "Gonzalez",
+  "email": "fg@aol.com",
+  "favoriteColor": "Blue",
+  "birthday": "01/01"
+}
+
+### DELETE CONTACT
+delete http://localhost:3000/contacts/69758515be7a6b749a85c511
 
 
 ### RENDER URLs
