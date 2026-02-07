@@ -2,7 +2,6 @@ const express = require("express");
 const connectDB = require("./DB/mongoDB");
 const swaggerAutogen = require("swagger-autogen")();
 
-const router = require("express").Router();
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("./swagger.json");
 
